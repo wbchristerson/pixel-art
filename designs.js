@@ -15,16 +15,8 @@ function makeGrid() {
     }
   }
 
-// Your code goes here!
-
 }
 
-/*
-document.getElementById("sizePicker").addEventListener("submit", function(evt) {
-  evt.preventDefault();
-  makeGrid();
-});
-*/
 
 $( '#sizePicker' ).on( 'submit', function() {
   event.preventDefault();
