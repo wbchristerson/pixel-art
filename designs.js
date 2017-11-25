@@ -2,6 +2,7 @@
 // Select size input
 
 // When size is submitted by the user, call makeGrid()
+let colorValue = '#000000';
 
 function makeGrid() {
   let rows = $( '#input_height' ).val();
@@ -31,9 +32,8 @@ $( '#sizePicker' ).on( 'submit', function() {
   event.preventDefault();
   makeGrid();
 });
-/*
-$( '#pixel_canvas' ).on('click', 'tr', function() {
+
+$( '#pixel_canvas' ).on('click', 'td', function() {
   event.preventDefault();
-  $( 'tr' ).css( 'background-color: #a3e461');
+  $( this ).css( 'background-color', colorValue );
 });
-*/
