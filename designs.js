@@ -9,44 +9,30 @@ function makeGrid() {
   let cols = $( '#input_width' ).val();
   let canvas = $( '#pixel_canvas' );
   let cellRow;
+  // remove current grid from screen if present
   canvas.children().remove();
+  // generate new grid
   for (let i = 0; i < rows; i = i + 1) {
     canvas.append( '<tr></tr>' );
     for (let j = 0; j < cols; j = j + 1) {
-      cellRow = $( 'tr' ).last();
-      cellRow.append( '<td></td>' );
-      /*
-      cellRow.last().on('click', function() {
-        event.preventDefault();
-        $( this ).css( 'background-color: #a3e461');
-      });
-      */
-
+      $( 'tr' ).last().append( '<td></td>' );
     }
   }
-
 }
 
-
-$( '#sizePicker' ).on( 'submit', function() {
+// make grid when 'submit' is clicked
+$( '#sizePicker' ).on( 'submit' , function() {
   event.preventDefault();
   makeGrid();
 });
 
-$( '#colorPicker' ).on('change', function() {
-  // event.preventDefault();
+// set color value when chosen from options
+$( '#colorPicker' ).on( 'change' , function() {
   colorValue = $( this ).val();
-  console.log(colorValue);
-})
-
-$( '#pixel_canvas' ).on('click', 'td', function() {
-  event.preventDefault();
-  $( this ).css( 'background-color', colorValue );
 });
 
-/*
-$( '#pixel_canvas' ).on('mousedown', 'td', function() {
+// set background of cell as current colorValue when clicked
+$( '#pixel_canvas' ).on( 'click' , 'td' , function() {
   event.preventDefault();
-  $( this ).css( 'background-color', colorValue );
+  $( this ).css( 'background-color' , colorValue );
 });
-*/
