@@ -1,3 +1,3 @@
-# Pixel Art Maker Project
+# Pixel Art Maker
 
-A one-page application to make colorful pixel images.
+A one-page application to make colorful pixel images of varying grid sizes.
