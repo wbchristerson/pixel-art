@@ -33,7 +33,20 @@ $( '#sizePicker' ).on( 'submit', function() {
   makeGrid();
 });
 
+$( '#colorPicker' ).on('change', function() {
+  // event.preventDefault();
+  colorValue = $( this ).val();
+  console.log(colorValue);
+})
+
 $( '#pixel_canvas' ).on('click', 'td', function() {
   event.preventDefault();
   $( this ).css( 'background-color', colorValue );
 });
+
+/*
+$( '#pixel_canvas' ).on('mousedown', 'td', function() {
+  event.preventDefault();
+  $( this ).css( 'background-color', colorValue );
+});
+*/
