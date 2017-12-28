@@ -1,8 +1,10 @@
 # Pixel Art Maker
 
-<p align="center">
-  <img src="img/canvas-example.png" alt="Sample Image Generated From Application Showing A Landscape Of A House And Surrounding Area">
-</p>
+<table><tr><td>
+  <p align="center">
+    <img src="img/canvas-example.png" alt="Sample Image Generated From Application Showing A Landscape Of A House And Surrounding Area">
+  </p>
+</td></tr></table>
 
 ### Running The Application
 The application can be run by clicking [here](https://wbchristerson.github.io/pixel-art/). To download, you can clone the repository using this terminal command:
@@ -53,5 +55,5 @@ Alternatively, follow the instructions below to download to a hard drive:
 
 
 ### Remaining Issues
-* When the mouse remains clicked down and is moved around, the intermediate pixels are not colored, making it time consuming to color entire regions of pixels in the same color. I could try to use the hover pseudo-class somehow for this, but have not considered this in detail.
+* When the mouse remains clicked down and is moved around, the intermediate pixels are not colored, making it time-consuming to color entire regions of pixels in the same color. I could try to use the hover pseudo-class somehow for this, but have not considered this in detail.
 * It would be nice if there were a way for the user to save his/her design without having to resort to taking a screen shot and then cropping the image in a photograph editor.
