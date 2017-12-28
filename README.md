@@ -45,9 +45,6 @@ Alternatively, follow the instructions below to download to a hard drive:
 
 <p align="center">
   <img src="img/canvas-blanket.png" alt="Pixel Art Maker Example Image Of Blanket Design">
-</p>
-
-<p align="center">
   <img src="img/canvas-beach.png" alt="Pixel Art Maker Example Image Of Beach">
 </p>
 
