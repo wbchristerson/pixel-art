@@ -1,9 +1,7 @@
 # Pixel Art Maker
 
 <p align="center">
-  <table><tr><td>
-    <img src="img/canvas-example.png" alt="Sample Image Generated From Application Showing A Landscape Of A House And Surrounding Area">
-  </td></tr></table>
+  <img src="img/canvas-example.png" alt="Sample Image Generated From Application Showing A Landscape Of A House And Surrounding Area">
 </p>
 
 ### Running The Application
