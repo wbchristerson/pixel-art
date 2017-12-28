@@ -5,7 +5,7 @@
 </p>
 
 ### Running The Application
-The application can be run by clicking [here](https://wbchristerson.github.io/pixel-art/). To download, you can clone the repository using this terminal command:
+The application can be run in your browser by clicking [here](https://wbchristerson.github.io/pixel-art/). To download, you can clone the repository using this terminal command:
 ```
 git clone https://github.com/wbchristerson/pixel-art.git
 ```
