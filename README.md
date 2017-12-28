@@ -1,10 +1,10 @@
 # Pixel Art Maker
 
-<table><tr><td>
-  <p align="center">
+<p align="center">
+  <table><tr><td>
     <img src="img/canvas-example.png" alt="Sample Image Generated From Application Showing A Landscape Of A House And Surrounding Area">
-  </p>
-</td></tr></table>
+  </td></tr></table>
+</p>
 
 ### Running The Application
 The application can be run by clicking [here](https://wbchristerson.github.io/pixel-art/). To download, you can clone the repository using this terminal command:
