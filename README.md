@@ -48,6 +48,9 @@ Alternatively, follow the instructions below to download to a hard drive:
   <img src="img/canvas-beach.png" alt="Pixel Art Maker Example Image Of Beach">
 </p>
 
+### Acknowledgments
+
+This project is based on a skeleton structure from Udacity. For more information, see the initial commit for this repository.
 
 ### Remaining Issues
 * When the mouse remains clicked down and is moved around, the intermediate pixels are not colored, making it time-consuming to color entire regions of pixels in the same color. I could try to use the hover pseudo-class somehow for this, but have not considered this in detail.
